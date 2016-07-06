@@ -9,7 +9,10 @@ import {
   ViewEncapsulation,
   OnDestroy
 } from '@angular/core';
-import {Overlay, OverlayState, OverlayRef, OVERLAY_PROVIDERS} from '@angular2-material/core/overlay/overlay';
+import {Overlay} from '@angular2-material/core/overlay/overlay';
+import {OverlayState} from '@angular2-material/core/overlay/overlay-state';
+import {OverlayRef} from '@angular2-material/core/overlay/overlay-ref';
+import {OVERLAY_DIRECTIVES} from '@angular2-material/core/overlay/overlay-directives';
 import {Animate} from '../../core/util/animate';
 import {MdDialogPortal} from './dialog-portal';
 import {MdDialogActions} from './dialog-actions';
